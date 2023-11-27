@@ -11,7 +11,7 @@ last =   '└── '
 
 
 def tree(dir_path: Path, level: int=-1, limit_to_directories: bool=False,
-         length_limit: int=1000):
+         length_limit: int=2000):
     """Given a directory Path object print a visual tree structure"""
     dir_path = Path(dir_path) # accept string coerceable to Path
     files = 0
